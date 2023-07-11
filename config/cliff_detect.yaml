@@ -1,0 +1,4 @@
+cliff_detect_dis_: 0.50
+regiongrow_min_clustersize_: 15
+itof_left_cloud_: "/itof/itof_front_left/tof_frame/pointcloud"
+itof_right_cloud_: "/itof/itof_front_right/tof_frame/pointcloud"

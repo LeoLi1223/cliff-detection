@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="mrobot_cliff_detect" type="mrobot_cliff_detect_node" name="mrobot_cliff_detect" output="screen"/>
+  <rosparam file="$(find mrobot_cliff_detect)/config/cliff_detect.yaml" command="load"/>
+  <!-- <node pkg="mrobot_cliff_detect" type="cliff_detect_node" name="mrobot_cliff_detect" output="screen"/> -->
+  <!-- <param name="itof_topic_name_" type="string" value="itof_front_left_frame"/> -->
+  <!--<node pkg="rviz" type="rviz" name="rviz" args="-d $(find mrobot_cliff_detect)/config/rviz/cliff.rviz"/>-->
+  <!-- <param name="use_sim_time" type="bool" value="true"/> -->
+</launch>
